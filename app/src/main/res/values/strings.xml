@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Skillify App</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="signin">Login</string>
+    <string name="required_name">Nama Dibutuhkan</string>
+    <string name="required_email">Email Dibutuhkan</string>
+    <string name="required_pwd">Password Dibutuhkan</string>
+    <string name="input_email">Input Your Email</string>
+    <string name="invalid_email">Invalid Format</string>
+    <string name="input_pass">Input Your Password</string>
+    <string name="pass_length">Password must be at least 6 characters</string>
+</resources>
