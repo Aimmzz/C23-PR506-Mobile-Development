@@ -12,19 +12,19 @@
         android:theme="@style/Theme.SkillifyApp"
         tools:targetApi="31">
         <activity
-            android:name=".FirstPageActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreenActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignInActivity"
+            android:name=".ui.splash.FirstPageActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.splash.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
