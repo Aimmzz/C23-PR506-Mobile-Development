@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".ui.splash.FirstPageActivity">
 
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="96dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
+        android:text="@string/desc_first_app"
+        android:textAlignment="center"
+        android:textColor="@color/main_color"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo1" />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_btn_1"
+        android:textColor="@color/white"
+        android:text="@string/get_started"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_btn_2"
+        android:textColor="@color/main_color"
+        android:textAllCaps="false"
+        android:text="@string/signin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_get_started" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
