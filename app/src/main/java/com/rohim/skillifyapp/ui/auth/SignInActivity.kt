@@ -1,13 +1,11 @@
 package com.rohim.skillifyapp.ui.auth
 
 import android.content.Intent
-import android.content.res.ColorStateList
-import android.graphics.Color
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.android.material.button.MaterialButton
-import com.rohim.skillifyapp.R
 import com.rohim.skillifyapp.databinding.ActivitySignInBinding
+import com.rohim.skillifyapp.ui.home.HomeActivity
 
 class SignInActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignInBinding
@@ -18,6 +16,11 @@ class SignInActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar?.hide()
+
+        binding.btnLogin2.setOnClickListener {
+            val toHome = Intent(this@SignInActivity, HomeActivity::class.java)
+            startActivity(toHome)
+        }
 
         binding.tvSignup.setOnClickListener {
             val btnToRegister2 = Intent(this@SignInActivity, SignUpActivity::class.java)

@@ -7,7 +7,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.rohim.skillifyapp.ui.home.databinding.ActivityHomeBinding
+import com.rohim.skillifyapp.R
+import com.rohim.skillifyapp.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
 
@@ -15,6 +16,8 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.hide()
 
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -26,7 +29,7 @@ class HomeActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications
+                R.id.navigation_home, R.id.navigation_search,R.id.navigation_connection,R.id.navigation_account
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
