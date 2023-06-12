@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Skillify App</string>
+    <string name="about">About</string>
+    <string name="theme">Theme Setting</string>
+    <string name="logout">Logout</string>
+    <string name="title_member">Member Profiles</string>
+    <string name="member">
+        A150DSX2100 – Rohim Kurniawan  – Universitas Bina Sarana Informatika\n\nC038DSX0683 – Iqbal Muchlis – Institut Teknologi Sepuluh Nopember\n\nC181DSX0802 – Charles Pramudana – Universitas Indonesia\n\nM038DSX1810 – Arief Badrus Sholeh  – Institut Teknologi Sepuluh Nopember\n\nM181DSX0105 – Michael Wong  – Universitas Indonesia\n\nM181DSY1561 – Raudhotul Jannah – Universitas Indonesia\n\n</string>
+    <string name="desc_about_app">The app can improve the overall job market by addressing the need for better job matching and reducing the challenges faced by job seekers in finding s table opportunities. Building an app for job seekers in Indonesia has the potential to benefit both job seekers and recruiters, providing a more efficient and effective way to connect with the right talent. Ultimately, the goal is to achieve a certain level of healthy relationship between the two parties that will benefit both job seekers and recruiters.</string>
 
     //nav
     <string name="title_home">Home</string>
@@ -10,9 +17,12 @@
 
     //auth
     <string name="signup">Register</string>
+    <string name="phone">Phone</string>
     <string name="email">Email</string>
-    <string name="name">Name</string>
+    <string name="name">Username</string>
     <string name="password">Password</string>
+    <string name="success">User Has Created!</string>
+    <string name="success1">Login Success</string>
     <string name="signin">Login</string>
     <string name="get_started">Get Started</string>
     <string name="required_name">Nama Dibutuhkan</string>
@@ -21,8 +31,52 @@
     <string name="input_email">Input Your Email</string>
     <string name="invalid_email">Invalid Format</string>
     <string name="input_pass">Input Your Password</string>
+    <string name="check_input">Periksa Input Anda</string>
     <string name="pass_length">Password must be at least 6 characters</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="desc_first_app">The app can improve the overall job market by addressing the need for better job matching and reducing the challenges faced by job seekers in finding suitable opportunities.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //profile
+    <string name="name_user">Rohim Kurniawan</string>
+    <string name="name_company">PT Skillify Aliance</string>
+    <string name="ringkasan_profile">Ringkasan Profile :</string>
+    <string name="isi_ringkasan">Saya adalah pribadi yang kreatif dan berbakat untuk menulis artikel blog berkualitas tinggi tentang berbagai topik</string>
+    <string name="keahlian">Keahlian :</string>
+    <string name="title_kontak">Kontak :</string>
+    <string name="title_alamat">Alamat</string>
+    <string name="example_keahlian">Microsoft Ofice</string>
+    <string name="kontak">rohimkurniawan456@gmail.com</string>
+    <string name="alamat">Jl.ABCD, No.30, Jakarta Pusat</string>
+    <string name="edt_profile">Edit Profile</string>
+    <string name="lihat_cv">Lihat CV</string>
+
+    //edit
+    <string name="camera">Camera</string>
+    <string name="galeri">Galeri</string>
+    <string name="title_perusahaan">Nama Perusahaan :</string>
+    <string name="hint_name">Masukan Nama Anda</string>
+    <string name="hint_perusahaan">Masukan Perusahaan Anda</string>
+    <string name="hint_keahlian">Masukan Keahlian</string>
+    <string name="hint_kontak">Masukan Kontak Anda</string>
+    <string name="hint_alamat">Masukan Alamat Anda</string>
+    <string name="hint_tentang_anda">Ceritakan Tentang Anda</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="save_cv">Save CV</string>
+
+    //job
+    <string name="title_job">Judul Job</string>
+    <string name="desc_job">Deskripsi Pekerjaan</string>
+    <string name="kualifikasi">Kualifakasi</string>
+    <string name="cara_melamar">Cara Melamar</string>
+    <string name="kontak_hr">Kontak HR</string>
+    <string name="post_job">Post Job</string>
+    <string name="hint_deskripsi">Masukan Deskripsi</string>
+    <string name="hint_kualifikasi">Masukan Kualifikasi</string>
+    <string name="hint_melamar">Masukan Cara Melamar</string>
+    <string name="hint_kontak_hr">Masukan Kontak HR</string>
+    <string name="hint_job">Masukan Judul Job</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="desc_melamar">Silakan kirimkan CV dan contoh tulisan Anda ke email recruitment@contohperusahaan.com dengan subjek Freelance Content Writer. Kami akan mempertimbangkan setiap aplikasi secara cermat dan merespons setiap email yang diterima.</string>
+    <string name="desc_kontakhr">Jika Anda memiliki pertanyaan tentang posisi ini, silakan hubungi Bapak/Ibu HR di nomor telepon (021) 1234567 atau email recruitment@contohperusahaan.com.</string>
 </resources>

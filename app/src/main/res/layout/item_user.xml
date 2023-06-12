@@ -4,7 +4,7 @@
     android:id="@+id/item_user"
     android:layout_width="match_parent"
     android:layout_height="133dp"
-    android:background="@drawable/bg_btn_2"
+    android:background="@drawable/bg_item1"
     android:layout_marginTop="8dp"
     android:padding="12dp">
 

@@ -23,6 +23,8 @@ class ConnectionFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View {
 
+        requireActivity().actionBar?.hide()
+
         val notificationsViewModel =
             ViewModelProvider(this).get(ConnectionViewModel::class.java)
 

@@ -12,11 +12,39 @@
         android:theme="@style/Theme.SkillifyApp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.profile.EditProfileActivity"
+            android:name=".ui.splash.UploadFirstDataActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstActivity"/>
+        <activity
+            android:name=".ui.splash.UploadPhotoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstActivity"/>
+        <activity
+            android:name=".ui.profile.DetailUserActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstActivity" />
+        <activity
+            android:name=".ui.home.MainHomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.profile.DetailProfileActivity"
+            android:name=".ui.profile.AboutActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.job.PostJobActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstActivity" />
+        <activity
+            android:name=".ui.job.DetailJobActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstActivity" />
+        <activity
+            android:name=".ui.profile.EditProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstActivity" />
+        <activity
+            android:name=".ui.profile.DetailProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstActivity" />
         <activity
             android:name=".ui.home.HomeActivity"
             android:exported="false"
@@ -44,5 +72,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

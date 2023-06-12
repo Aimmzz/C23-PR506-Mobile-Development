@@ -1,5 +1,6 @@
 package com.rohim.skillifyapp.ui.profile
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.rohim.skillifyapp.databinding.ActivityDetailProfileBinding
@@ -10,5 +11,10 @@ class DetailProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.btnEdtProfile.setOnClickListener {
+            val edtProfile = Intent(this@DetailProfileActivity, EditProfileActivity::class.java)
+            startActivity(edtProfile)
+        }
     }
 }

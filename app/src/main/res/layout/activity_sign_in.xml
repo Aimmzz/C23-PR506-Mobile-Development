@@ -12,7 +12,7 @@
         android:layout_width="220dp"
         android:layout_height="70dp"
         android:src="@drawable/logo"
-        app:layout_constraintBottom_toTopOf="@id/edt_email_login"
+        app:layout_constraintBottom_toTopOf="@id/edt_name_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,32 +24,31 @@
         android:text="@string/app_name"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/edt_email_login"
+        app:layout_constraintBottom_toTopOf="@id/edt_name_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/icon"
         app:layout_constraintVertical_bias="0.301" />
 
-    <com.rohim.skillifyapp.ui.customview.InputEmail
-        android:id="@+id/edt_email_login"
+    <com.rohim.skillifyapp.ui.customview.InputName
+        android:id="@+id/edt_name_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
+        android:hint="@string/name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <com.rohim.skillifyapp.ui.customview.InputPassword
-        android:id="@+id/et_pass"
+        android:id="@+id/edt_password_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edt_email_login" />
+        app:layout_constraintTop_toBottomOf="@id/edt_name_login" />
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_login2"
         android:layout_width="match_parent"
@@ -62,7 +61,7 @@
         android:text="@string/signin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/et_pass" />
+        app:layout_constraintTop_toBottomOf="@id/edt_password_login" />
     <TextView
         android:id="@+id/tv_dont_have_acc"
         android:layout_width="wrap_content"

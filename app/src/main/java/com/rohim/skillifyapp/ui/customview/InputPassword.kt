@@ -41,7 +41,7 @@ class InputPassword : AppCompatEditText {
                     isPassValid = false
                     error = resources.getString(R.string.input_pass)
                 }
-                pass.length < 6 -> {
+                pass.length < 2 -> {
                     isPassValid = false
                     error = resources.getString(R.string.pass_length)
                 }
