@@ -6,13 +6,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.rohim.skillifyapp.R
 import com.rohim.skillifyapp.databinding.FragmentProfileBinding
-import com.rohim.skillifyapp.databinding.FragmentSearchBinding
+import com.rohim.skillifyapp.ui.auth.AuthViewModel
+import com.rohim.skillifyapp.ui.auth.SignInActivity
 import com.rohim.skillifyapp.ui.home.ui.search.SearchViewModel
 import com.rohim.skillifyapp.ui.job.PostJobActivity
 import com.rohim.skillifyapp.ui.profile.AboutActivity
@@ -22,6 +20,8 @@ class ProfileFragment : Fragment() {
 
     private var _binding: FragmentProfileBinding? = null
     private val binding get() = _binding!!
+
+    private lateinit var authViewModel: AuthViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -42,6 +42,11 @@ class ProfileFragment : Fragment() {
         binding.cardAbout.setOnClickListener {
             val moveToAbout = Intent(requireActivity(), AboutActivity::class.java)
             startActivity(moveToAbout)
+        }
+        binding.cardLogout.setOnClickListener {
+//            authViewModel.logout()
+            startActivity(Intent(requireActivity(), SignInActivity::class.java))
+            requireActivity().finishAffinity()
         }
         return root
     }

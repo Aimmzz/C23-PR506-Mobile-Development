@@ -8,6 +8,24 @@
         A150DSX2100 – Rohim Kurniawan  – Universitas Bina Sarana Informatika\n\nC038DSX0683 – Iqbal Muchlis – Institut Teknologi Sepuluh Nopember\n\nC181DSX0802 – Charles Pramudana – Universitas Indonesia\n\nM038DSX1810 – Arief Badrus Sholeh  – Institut Teknologi Sepuluh Nopember\n\nM181DSX0105 – Michael Wong  – Universitas Indonesia\n\nM181DSY1561 – Raudhotul Jannah – Universitas Indonesia\n\n</string>
     <string name="desc_about_app">The app can improve the overall job market by addressing the need for better job matching and reducing the challenges faced by job seekers in finding s table opportunities. Building an app for job seekers in Indonesia has the potential to benefit both job seekers and recruiters, providing a more efficient and effective way to connect with the right talent. Ultimately, the goal is to achieve a certain level of healthy relationship between the two parties that will benefit both job seekers and recruiters.</string>
 
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="linkedin">Link Linkedin or other</string>
+    <string name="age">Age</string>
+    <string name="hint_age">Input Your Age</string>
+    <string name="skills">Skills</string>
+    <string name="hint_skill">Input Your Skill</string>
+    <string name="address">Address</string>
+    <string name="hint_address">Input Your Address</string>
+    <string name="email_address">Email Address</string>
+    <string name="hint_email_address">Input Your Email Address</string>
+    <string name="other_link">Other Link</string>
+    <string name="hint_link">Input Link (Ex. Link Linkedin) or ( - )</string>
+    <string name="description">Description</string>
+    <string name="hint_description">Input about you</string>
+    <string name="hint_cv">Input your link cv</string>
+    <string name="website">Website</string>
+    <string name="hint_website">Input your link website or ( - )</string>
     //nav
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
@@ -17,7 +35,7 @@
 
     //auth
     <string name="signup">Register</string>
-    <string name="phone">Phone</string>
+    <string name="phone">Phone Number</string>
     <string name="email">Email</string>
     <string name="name">Username</string>
     <string name="password">Password</string>
@@ -28,6 +46,7 @@
     <string name="required_name">Nama Dibutuhkan</string>
     <string name="required_email">Email Dibutuhkan</string>
     <string name="required_pwd">Password Dibutuhkan</string>
+    <string name="hint_phone">Input Your Phone Number</string>
     <string name="input_email">Input Your Email</string>
     <string name="invalid_email">Invalid Format</string>
     <string name="input_pass">Input Your Password</string>
@@ -79,4 +98,103 @@
     <string name="bookmark">Bookmark</string>
     <string name="desc_melamar">Silakan kirimkan CV dan contoh tulisan Anda ke email recruitment@contohperusahaan.com dengan subjek Freelance Content Writer. Kami akan mempertimbangkan setiap aplikasi secara cermat dan merespons setiap email yang diterima.</string>
     <string name="desc_kontakhr">Jika Anda memiliki pertanyaan tentang posisi ini, silakan hubungi Bapak/Ibu HR di nomor telepon (021) 1234567 atau email recruitment@contohperusahaan.com.</string>
+
+    //dummy data
+    <string name="jobtitle1">IT engineer</string>
+    <string name="description1">Pekerjaan untuk yang tertarik dengan teknologi</string>
+    <string name="qualifications1">menguasai html</string>
+    <string name="companyName1">PT. Company.com</string>
+    <string name="address1">Jl mawar, Jakarta Pusat</string>
+    <string name="phoneNumber1">08123445232</string>
+    <string name="email1">hr.company@gmail.com</string>
+    <string name="website1">company.com</string>
+    <string name="linkedin1">linkedin.com/company</string>
+    <string name="jobtitle2">Android Developer</string>
+    <string name="description2">Pekerjaan untuk yang tertarik dengan membangun Aplikasi Android</string>
+    <string name="qualifications2">menguasai bahasa pemrograman kotlin</string>
+    <string name="companyName2">PT. Skillpy App</string>
+    <string name="address2">Jl melati, Jakarta Pusat</string>
+    <string name="phoneNumber2">08123445233</string>
+    <string name="email2">hr.skillpy@gmail.com</string>
+    <string name="website2">skillpy.co.id</string>
+    <string name="linkedin2">linkedin.com/skillpy</string>
+    <string name="jobtitle3">Back-End Developer</string>
+    <string name="description3">Pekerjaan untuk yang tertarik dengan membangun server dan API</string>
+    <string name="qualifications3">menguasai bahasa pemrograman Javascript</string>
+    <string name="companyName3">PT. Cheshire Country</string>
+    <string name="address3">Jl mangga, Jakarta Pusat</string>
+    <string name="phoneNumber3">08123445456</string>
+    <string name="email3">hr.cheshire@gmail.com</string>
+    <string name="website3">chesirecountry.co.id</string>
+    <string name="linkedin3">linkedin.com/chesire</string>
+    <string name="jobtitle4">Project Manajament</string>
+    <string name="description4">Pekerjaan untuk yang tertarik dengan mengatur projek</string>
+    <string name="qualifications4">menguasai Atlassian Jira</string>
+    <string name="companyName4">PT. Real Estate</string>
+    <string name="address4">Jl Pangkalan Asem, Jakarta Pusat</string>
+    <string name="phoneNumber4">08123445456</string>
+    <string name="email4">hr.realestate@gmail.com</string>
+    <string name="website4">realestate.co.id</string>
+    <string name="linkedin4">linkedin.com/realestate</string>
+    <string name="jobtitle5">Web Developer</string>
+    <string name="description5">Pekerjaan untuk yang tertarik dengan pengembangan web</string>
+    <string name="qualifications5">menguasai HTML</string>
+    <string name="companyName5">PT. Inspirasi Digital</string>
+    <string name="address5">Jl merdeka, Jakarta Pusat</string>
+    <string name="phoneNumber5">08123445456</string>
+    <string name="email5">hr.inspirasidigital@gmail.com</string>
+    <string name="website5">inspirasidigital.co.id</string>
+    <string name="linkedin5">linkedin.com/inspirasidigital</string>
+
+    //lain-lain
+    <string name="template_body">
+        Saya menulis ini untuk melamar posisi [Nama Posisi] di [Nama Perusahaan]. Nama saya adalah [Nama Anda], lulusan [Pendidikan Terakhir], dengan pengalaman kerja di bidang [Bidang Terkait] selama [Jumlah Tahun].
+
+        Saya tertarik dengan perusahaan [Nama Perusahaan] karena reputasinya yang kuat di industri ini dan dedikasinya terhadap inovasi. Saya percaya bahwa kombinasi keahlian saya di [Bidang Terkait] dan pengalaman kerja saya di [Perusahaan Sebelumnya] akan memungkinkan saya untuk memberikan kontribusi yang berarti pada perusahaan.
+
+        Saya sangat berterima kasih atas waktu dan perhatian yang diberikan dalam meninjau lamaran saya. Saya siap memberikan informasi lebih lanjut dan menghadiri wawancara jika diundang. Terima kasih banyak atas kesempatan ini.
+
+        Hormat saya,
+
+        [Nama Lengkap]
+
+        Nomor Telepon: [Nomor Telepon]
+
+        Email: [Alamat Email]
+    </string>
+
+    //dummmy user
+    <string name="firstname1">Jamal Musiala</string>
+    <string name="lastname1">Musiala</string>
+    <string name="name_company_user1">PT. Alienz Arena</string>
+    <string name="desc1">Saya adalah</string>
+    <string name="qualificationUser1">Kotlin</string>
+    <string name="phoneNumberUser1">0823986543</string>
+    <string name="addressUser1">Jl. T kampung rawa</string>
+    <string name="emailUser1">jamal@gmail.com</string>
+    <string name="websiteUser1">jamal.ac.id</string>
+    <string name="linkedinUser1">linkedin.com/jamal</string>
+
+    <string name="firstname2">Martin Odegard</string>
+    <string name="lastname2">Musiala</string>
+    <string name="name_company_user2">PT. Emirate Stadium</string>
+    <string name="desc2">Saya adalah</string>
+    <string name="qualificationUser2">Kotlin</string>
+    <string name="phoneNumberUser2">0823986543</string>
+    <string name="addressUser2">Jl. T kampung rawa</string>
+    <string name="emailUser2">jamal@gmail.com</string>
+    <string name="websiteUser2">jamal.ac.id</string>
+    <string name="linkedinUser2">linkedin.com/jamal</string>
+
+    <string name="firstname3">Jude belingham</string>
+    <string name="lastname3">Musiala</string>
+    <string name="name_company_user3">PT. Santiago Beurnabu</string>
+    <string name="desc3">Saya adalah</string>
+    <string name="qualificationUser3">Kotlin</string>
+    <string name="phoneNumberUser3">0823986543</string>
+    <string name="addressUser3">Jl. T kampung rawa</string>
+    <string name="emailUser3">jamal@gmail.com</string>
+    <string name="websiteUser3">jamal.ac.id</string>
+    <string name="linkedinUser3">linkedin.com/jamal</string>
+
 </resources>

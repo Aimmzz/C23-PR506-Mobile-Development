@@ -5,17 +5,18 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
+import com.rohim.skillifyapp.data.model.User
 import com.rohim.skillifyapp.data.model.UserEntity
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
 class SkillipyPreferences private constructor(private val dataStore: DataStore<Preferences>) {
 
-    fun getUserData(): Flow<UserEntity> {
+    fun getUserData(): Flow<User> {
         return dataStore.data.map { preferences ->
-            UserEntity(
+            User(
                 preferences[TOKEN] ?: "",
-                preferences[STATE] ?: false
+                preferences[ID] ?: ""
             )
         }
     }
@@ -43,9 +44,9 @@ class SkillipyPreferences private constructor(private val dataStore: DataStore<P
         @Volatile
         private var INSTANCE: SkillipyPreferences? = null
 
-//        private val NAME = stringPreferencesKey("name")
         private val TOKEN = stringPreferencesKey("token")
         private val STATE = booleanPreferencesKey("state")
+        private val ID = stringPreferencesKey("id")
 
         fun getInstance(dataStore: DataStore<Preferences>): SkillipyPreferences {
             return INSTANCE ?: synchronized(this) {
